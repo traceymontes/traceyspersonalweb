@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: FFC8C8
+  }
+  
+  header {
+    background-color:rgb(133, 14, 53);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 210%;
+    font-family: monospace
+  }
+  .navlist a {
+      color: white;
+      margin-left: 60px;
+      font-size: 15px;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: all .55s ease;
+  }
+  .navlist a:hover {
+      border-bottom: 2px solid rgb(255, 0, 200);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: left;
+    box-shadow: 0px 10px 10px rgb(189, 69, 125);
+  border-radius: 10px;
+  }
+  
+  .logo {
+    max-width: 100px; 
+    max-height: 100px; 
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    width: 100px;
+    height: auto
+    
+  } 
+  
+  header h1 {
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0px 10px 10px rgb(207, 108, 155);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 200%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    font-family: monospace;
+    
+  }
+  
+  nav ul li {
+  margin-left: 20px;
+  color: #e8e4e6;
+  font-family: monospace;
+  font-size: 140%;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .pink-section {
+    background-color: rgb(255, 196, 196);
+    color: rgb(133, 14, 53);
+    padding: 40px;
+    margin: 20px 0;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(133, 14, 53);
+    font-family:monospace;
+  }
+  
+  footer {
+    text-align: center;
+    background-color:#B0578D;
+    color: white;
+    padding: 10px 0;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 20px;
+}
+
+.buttons {
+    height: 10vh; 
+    display: inline-block; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: transparent;
+    text-align: center;
+    font-family: monospace;
+}
+
+.socials{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(223, 50, 93); 
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.socials:hover {
+    background-color: white;
+    color: rgb(247, 79, 177);
+}
+
+.socials:hover {
+    border: 10px solid white;
+}
+
+footer {
+  text-align: center;
+  background-color:rgb(238, 105, 131);
+  color: white;
+  padding: 10px 0;
+}
+
